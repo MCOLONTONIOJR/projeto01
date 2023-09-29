@@ -1,0 +1,65 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;/*centralizando os textos da página*/
+    margin: 0
+ }
+
+#hero {
+    width: 592px; /*altura da "caixa" dos elementos*/
+    margin: 0 auto 72px/*alinhamento de margen da "caixa" dos elementos*/
+    
+}
+
+#hero img {
+
+    margin-bottom: 72px; /*espaçamento da imagem para o título*/
+
+}
+
+
+/*Ir no Google Fontes, pesquisar as fontes, addicionar a "cesta",
+ir no código CSS, copiar e colar aqui de acordo com os elementos*/
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 49px; /*tamanho da fonte*/
+    line-height: 56px; /*altura da linha*/
+    font-weight: normal; /*largura da fonte*/
+    margin-bottom: 32px; /*espaçamento do título para 1º parágrafo ou box
+    parágrafos*/
+   }
+
+h1 span {
+    font-weight: bold; /*É que neste caso a palavra do Span tem fonte 
+    diferente*/
+}  
+
+
+span, a {
+    color: #F90; /*cor do texto em detalhe*/
+  
+
+}
+
+p, #footer {
+    color: #7D7987; /*cor do texto como um todo*/
+    
+}
+
+#footer a + a {
+    margin-left: 28px; /*colocando margem entre os elementos do link*/
+}
+
+#line {
+
+width: 568px; /*largura da caixa da linha*/
+height: 0px; /*altura da caixa da linha*/
+border: 1px #ECEFF2 solid; /*largura, cor e estilo da linha*/
+margin: 0 auto 8px;
+}
+
+#balls {
+/*configurações de posicionamento da imagem balls*/
+    position: fixed; 
+    bottom: 0px;
+    right: 0px;
+}
